@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 
+em HTML é id = em Css # (só pode um elemento)
+em HTML é class = em Css (pode vários elementos)*/
+/* hierarquia
+    id 
+   class */
+
+body{
+    background-color: rgb(228, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#main{
+    color:black;
+    text-align: center;
+   background-color: #746c6b;
+}
+
+.basic{
+color: rgb(145, 120, 89);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400px;
+
+}
+.intermediario{
+color: #4d302c;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 600px;
+}
+.avançado{
+color: #2e1512;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+
+}
+.destaque{
+    background-color: lightblue ;
+}
+h1{
+    color: #df3c17;
+   
+    
+}
+
+h2{
+    color: #746c6b;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color:lightblue;
+             border-radius: 30px; 
+            padding:40px;
+            
+            text-align: center;
+            width:200px ;
+            height:200px ;
+           
+        }
+        #d1:hover{
+            background-color:lightcoral;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+            
+        }
+        #d2:hover{
+            background-color: cadetblue;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+        }
+        #d3:hover{
+            background-color:cornflowerblue ;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+        }
+        /* : = pseudo classe
+        pesudo classes estão relacionadas ao estado de um elemento */
+        #houver > p {
+            /* > child  */
+            display: none;
+          
+        }
+        #houver:hover > p {
+            display: block;
+            color: darkcyan;
+            
+        }
+        #houver:hover{
+            color:olivedrab;
+        
+        }
+        #houver{
+            background-color: white;
+            border:none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div id="houver">
+       Passe o mouse aqui
+       <p>Texto escondido.....</p>
+    </div>
+</body>
+</html>
